@@ -4,7 +4,7 @@ namespace ofx {
 namespace piMapper {
 
 MediaServer::MediaServer():
-	piVideoWatcher(PI_IMAGES_DIR, SourceType::SOURCE_TYPE_VIDEO),
+	piVideoWatcher(PI_VIDEOS_DIR, SourceType::SOURCE_TYPE_VIDEO),
 	usb0VideoWatcher(USB0_VIDEOS_DIR, SourceType::SOURCE_TYPE_VIDEO),
 	usb1VideoWatcher(USB1_VIDEOS_DIR, SourceType::SOURCE_TYPE_VIDEO),
 	usb2VideoWatcher(USB2_VIDEOS_DIR, SourceType::SOURCE_TYPE_VIDEO),
