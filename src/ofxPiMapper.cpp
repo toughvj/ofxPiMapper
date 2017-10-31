@@ -135,6 +135,22 @@ void ofxPiMapper::scaleDown(){
 	_application.scaleDown();
 }
 
+void ofxPiMapper::addGridRow(){
+	_application.addGridRow();
+}
+
+void ofxPiMapper::addGridColumn(){
+	_application.addGridColumn();
+}
+
+void ofxPiMapper::removeGridRow(){
+	_application.removeGridRow();
+}
+
+void ofxPiMapper::removeGridColumn(){
+	_application.removeGridColumn();
+}
+
 void ofxPiMapper::togglePauseForSurface(unsigned int i){
 	ofx::piMapper::BaseSource * s =
 		_application.getSurfaceManager()->getActivePreset()->getSurfaces().at(i)->getSource();
