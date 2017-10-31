@@ -69,6 +69,10 @@ class ofxPiMapper {
 		void moveSelection(ofVec2f by);
 		void createSurface(ofx::piMapper::SurfaceType type);
 		void eraseSurface(int i);
+		void addGridRow();
+		void addGridColumn();
+		void removeGridRow();
+		void removeGridColumn();
 	
 		// Sources, selected surface
 		void setNextSource();
